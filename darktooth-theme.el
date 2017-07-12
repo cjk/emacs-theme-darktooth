@@ -776,7 +776,10 @@
   (helm-swoop-target-word-face               (:foreground darktooth-light0 :background darktooth-faded_aqua))
   (helm-swoop-target-line-block-face         (:foreground darktooth-light0_hard :background darktooth-faded_blue))
   (helm-swoop-target-line-face               (:foreground darktooth-light0_hard :background darktooth-faded_blue))
-  (helm-swoop-line-number-face               (:foreground darktooth-neutral_orange)))
+  (helm-swoop-line-number-face               (:foreground darktooth-neutral_orange))
+
+  ;; MODE SUPPORT: evil-mc
+  (evil-mc-cursor-default-face                (:inherit 'default :inverse-video t)))
 
  (defface darktooth-modeline-one-active
    `((t

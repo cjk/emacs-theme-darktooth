@@ -779,7 +779,24 @@
   (helm-swoop-line-number-face               (:foreground darktooth-neutral_orange))
 
   ;; MODE SUPPORT: evil-mc
-  (evil-mc-cursor-default-face                (:inherit 'default :inverse-video t)))
+  (evil-mc-cursor-default-face               (:inherit 'default :inverse-video t))
+
+  ;; MODE SUPPORT: ERC
+  (erc-prompt-face                           (:foreground darktooth-bright_green))
+  (erc-notice-face                           (:inherit 'font-lock-comment-face))
+  (erc-timestamp-face                        (:inherit 'shadow))
+  (erc-input-face                            (:inherit 'default))
+  (erc-nick-default-face                     (:inherit 'default))
+  (erc-nick-prefix-face                      (:foreground darktooth-bright_green))
+  (erc-my-nick-prefix-face                   (:foreground darktooth-bright_green))
+  (erc-direct-msg-face                       (:inherit 'default))
+
+  ;; MODE SUPPORT: emms
+  (emms-browser-artist-face                  (:foreground darktooth-bright_orange))
+  (emms-browser-album-face                   (:foreground darktooth-bright_green))
+  (emms-browser-track-face                   (:foreground darktooth-bright_blue))
+  (emms-playlist-selected-face               (:foreground darktooth-bright_red))
+  (emms-playlist-track-face                  (:foreground darktooth-light2)))
 
  (defface darktooth-modeline-one-active
    `((t

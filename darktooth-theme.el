@@ -837,7 +837,13 @@
   (emms-browser-album-face                   (:foreground darktooth-bright_green))
   (emms-browser-track-face                   (:foreground darktooth-bright_blue))
   (emms-playlist-selected-face               (:foreground darktooth-bright_red))
-  (emms-playlist-track-face                  (:foreground darktooth-light2)))
+  (emms-playlist-track-face                  (:foreground darktooth-light2))
+
+  ;; MODE SUPPORT: sx
+  (sx-question-list-answers                  (:foreground darktooth-bright_green))
+  (sx-question-mode-content-face             (:foreground darktooth-light2 :background darktooth-dark0_soft)))
+
+
 
  (defface darktooth-modeline-one-active
    `((t

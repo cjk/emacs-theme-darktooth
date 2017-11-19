@@ -927,7 +927,23 @@
                                                         ,darktooth-neutral_blue
                                                         ,darktooth-neutral_purple
                                                         ,darktooth-neutral_cyan
-                                                        ,darktooth-light1])))
+                                                        ,darktooth-light1])
+                             `(xterm-color-names [,darktooth-dark0
+                                                  ,darktooth-faded_red
+                                                  ,darktooth-faded_green
+                                                  ,darktooth-faded_yellow
+                                                  ,darktooth-faded_blue
+                                                  ,darktooth-faded_purple
+                                                  ,darktooth-faded_cyan
+                                                  ,darktooth-light3])
+                             `(xterm-color-names-bright ["686868"
+                                                         ,darktooth-bright_red
+                                                         ,darktooth-bright_green
+                                                         ,darktooth-bright_yellow
+                                                         ,darktooth-bright_blue
+                                                         ,darktooth-bright_purple
+                                                         ,darktooth-bright_cyan
+                                                         ,darktooth-light0])))
 
 (defun darktooth-modeline-one ()
   "Optional modeline style one for darktooth."

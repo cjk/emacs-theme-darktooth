@@ -846,6 +846,7 @@
   (erc-nick-prefix-face                      (:foreground darktooth-bright_green))
   (erc-my-nick-prefix-face                   (:foreground darktooth-bright_green))
   (erc-direct-msg-face                       (:inherit 'default))
+  (erc-current-nick-face                     (:foreground darktooth-sienna))
 
   ;; MODE SUPPORT: emms
   (emms-browser-artist-face                  (:foreground darktooth-bright_orange))

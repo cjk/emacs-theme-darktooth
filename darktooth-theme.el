@@ -842,7 +842,7 @@
   (erc-notice-face                           (:inherit 'font-lock-comment-face))
   (erc-timestamp-face                        (:inherit 'shadow))
   (erc-input-face                            (:inherit 'default))
-  (erc-nick-default-face                     (:inherit 'default))
+  (erc-nick-default-face                     (:inherit 'erc-current-nick-face))
   (erc-nick-prefix-face                      (:foreground darktooth-bright_green))
   (erc-my-nick-prefix-face                   (:foreground darktooth-bright_green))
   (erc-direct-msg-face                       (:inherit 'default))

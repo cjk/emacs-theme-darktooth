@@ -839,15 +839,17 @@
   (evil-mc-cursor-default-face               (:inherit 'default :inverse-video t))
 
   ;; MODE SUPPORT: ERC
-  (erc-prompt-face                           (:foreground darktooth-bright_green))
+  (erc-prompt-face                           (:foreground darktooth-bright_green :weight 'bold))
   (erc-notice-face                           (:inherit 'font-lock-comment-face))
   (erc-timestamp-face                        (:inherit 'shadow))
   (erc-input-face                            (:inherit 'default))
-  (erc-nick-default-face                     (:inherit 'erc-current-nick-face))
   (erc-nick-prefix-face                      (:foreground darktooth-bright_green))
   (erc-my-nick-prefix-face                   (:foreground darktooth-bright_green))
   (erc-direct-msg-face                       (:inherit 'default))
   (erc-current-nick-face                     (:foreground darktooth-sienna))
+  (erc-nick-default-face                     (:foreground darktooth-sienna))
+  (erc-nick-msg-face                         (:foreground darktooth-sienna))
+  (erc-button                                (:inherit 'link))
 
   ;; MODE SUPPORT: emms
   (emms-browser-artist-face                  (:foreground darktooth-bright_orange))

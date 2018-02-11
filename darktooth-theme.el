@@ -860,7 +860,10 @@
 
   ;; MODE SUPPORT: sx
   (sx-question-list-answers                  (:foreground darktooth-bright_green))
-  (sx-question-mode-content-face             (:foreground darktooth-light2 :background darktooth-dark0_soft)))
+  (sx-question-mode-content-face             (:foreground darktooth-light2 :background darktooth-dark0_soft))
+
+  ;; MODE SUPPORT: table
+  (table-cell                                (:inherit 'default)))
 
 
 

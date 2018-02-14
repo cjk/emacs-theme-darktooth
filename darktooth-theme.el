@@ -839,7 +839,7 @@
   (evil-mc-cursor-default-face               (:inherit 'default :inverse-video t))
 
   ;; MODE SUPPORT: ERC
-  (erc-prompt-face                           (:foreground darktooth-bright_green :weight 'bold))
+  (erc-prompt-face                           (:foreground darktooth-bright_green))
   (erc-notice-face                           (:inherit 'font-lock-comment-face))
   (erc-timestamp-face                        (:inherit 'shadow))
   (erc-input-face                            (:inherit 'default))

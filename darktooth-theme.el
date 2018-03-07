@@ -411,6 +411,7 @@
   ;; MODE SUPPORT: markdown
   (markdown-code-face                        (:foreground darktooth-light2 :background darktooth-dark0_soft))
   (markdown-inline-code-face                 (:foreground darktooth-light2 :background darktooth-dark0_soft))
+  (markdown-markup-face                      (:foreground darktooth-neutral_orange))
   (markdown-header-face-1                    (:foreground darktooth-bright_orange))
   (markdown-header-face-2                    (:foreground darktooth-bright_green))
   (markdown-header-face-3                    (:foreground darktooth-bright_blue))
